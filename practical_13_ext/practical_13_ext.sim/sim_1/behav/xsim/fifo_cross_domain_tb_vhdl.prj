@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../practical_13_ext.srcs/sources_1/imports/new/fifo.vhd" \
+"../../../../practical_13_ext.srcs/sim_1/new/fifo_cross_domain_tb.vhd" \
+
+# Do not sort compile order
+nosort

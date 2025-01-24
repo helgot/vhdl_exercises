@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.1 (64-bit)
+# SW Build 5266912 on Sun Dec 15 09:03:31 MST 2024
+# IP Build 5264866 on Sun Dec 15 16:27:47 MST 2024
+# SharedData Build 5264680 on Wed Dec 11 12:48:36 MST 2024
+# Start of session at: Fri Jan  3 12:16:52 2025
+# Process ID         : 49874
+# Current directory  : /home/dart/vhdl_training/practical_3/practical_3/practical_3.runs/impl_1
+# Command line       : vivado -log practical_3.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source practical_3.tcl -notrace
+# Log file           : /home/dart/vhdl_training/practical_3/practical_3/practical_3.runs/impl_1/practical_3.vdi
+# Journal file       : /home/dart/vhdl_training/practical_3/practical_3/practical_3.runs/impl_1/vivado.jou
+# Running On         : localhost.localdomain
+# Platform           : unknown
+# Operating System   : unknown
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1235U
+# CPU Frequency      : 2200.000 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 7674 MB
+# Swap memory        : 8078 MB
+# Total Virtual      : 15752 MB
+# Available Virtual  : 12551 MB
+#-----------------------------------------------------------
+source practical_3.tcl -notrace

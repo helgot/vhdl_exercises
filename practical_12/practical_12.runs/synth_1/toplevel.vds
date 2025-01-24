@@ -1,0 +1,336 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.1 (64-bit)
+# SW Build 5266912 on Sun Dec 15 09:03:31 MST 2024
+# IP Build 5264866 on Sun Dec 15 16:27:47 MST 2024
+# SharedData Build 5264680 on Wed Dec 11 12:48:36 MST 2024
+# Start of session at: Mon Jan 20 22:11:15 2025
+# Process ID         : 638041
+# Current directory  : /home/dart/vhdl_training/practical_12/practical_12.runs/synth_1
+# Command line       : vivado -log toplevel.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source toplevel.tcl
+# Log file           : /home/dart/vhdl_training/practical_12/practical_12.runs/synth_1/toplevel.vds
+# Journal file       : /home/dart/vhdl_training/practical_12/practical_12.runs/synth_1/vivado.jou
+# Running On         : localhost.localdomain
+# Platform           : unknown
+# Operating System   : unknown
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1235U
+# CPU Frequency      : 3700.000 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 7674 MB
+# Swap memory        : 8078 MB
+# Total Virtual      : 15752 MB
+# Available Virtual  : 5723 MB
+#-----------------------------------------------------------
+source toplevel.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental /home/dart/vhdl_training/practical_12/practical_12.srcs/utils_1/imports/synth_1/toplevel.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/dart/vhdl_training/practical_12/practical_12.srcs/utils_1/imports/synth_1/toplevel.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top toplevel -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 638085
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2142.426 ; gain = 428.832 ; free physical = 1026 ; free virtual = 4335
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'toplevel' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/top_level.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'rom' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:16]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "distributed" is ignored, object 'rom[0]' is not inferred as ram due to incorrect usage [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:46]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "distributed" is ignored, object 'rom[1]' is not inferred as ram due to incorrect usage [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:46]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "distributed" is ignored, object 'rom[2]' is not inferred as ram due to incorrect usage [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:46]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "distributed" is ignored, object 'rom[3]' is not inferred as ram due to incorrect usage [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:46]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "distributed" is ignored, object 'rom[4]' is not inferred as ram due to incorrect usage [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:46]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "distributed" is ignored, object 'rom[5]' is not inferred as ram due to incorrect usage [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:46]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "distributed" is ignored, object 'rom[6]' is not inferred as ram due to incorrect usage [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:46]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "distributed" is ignored, object 'rom[7]' is not inferred as ram due to incorrect usage [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:46]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "distributed" is ignored, object 'rom[8]' is not inferred as ram due to incorrect usage [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:46]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "distributed" is ignored, object 'rom[9]' is not inferred as ram due to incorrect usage [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:46]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "distributed" is ignored, object 'rom[10]' is not inferred as ram due to incorrect usage [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:46]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "distributed" is ignored, object 'rom[11]' is not inferred as ram due to incorrect usage [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:46]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "distributed" is ignored, object 'rom[12]' is not inferred as ram due to incorrect usage [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:46]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "distributed" is ignored, object 'rom[13]' is not inferred as ram due to incorrect usage [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:46]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "distributed" is ignored, object 'rom[14]' is not inferred as ram due to incorrect usage [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:46]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "distributed" is ignored, object 'rom[15]' is not inferred as ram due to incorrect usage [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:46]
+WARNING: [Synth 8-614] signal 'write' is read in the process but is not in the sensitivity list [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:72]
+WARNING: [Synth 8-614] signal 'switches_in' is read in the process but is not in the sensitivity list [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:72]
+WARNING: [Synth 8-614] signal 'rom_address_r' is read in the process but is not in the sensitivity list [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'rom' (0#1) [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'toplevel' (0#1) [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/top_level.vhd:18]
+WARNING: [Synth 8-7129] Port buttons[3] in module toplevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port buttons[1] in module toplevel is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2215.395 ; gain = 501.801 ; free physical = 918 ; free virtual = 4240
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2230.238 ; gain = 516.645 ; free physical = 905 ; free virtual = 4228
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2230.238 ; gain = 516.645 ; free physical = 905 ; free virtual = 4228
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2230.238 ; gain = 0.000 ; free physical = 905 ; free virtual = 4228
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'JA[0]'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:130]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:130]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[0]'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:131]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:131]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[1]'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:133]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:133]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[1]'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:134]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:134]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[2]'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:136]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:136]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[2]'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:137]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:137]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[3]'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:139]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:139]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[3]'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:140]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:140]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[0]'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:158]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:158]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[0]'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:159]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:159]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[1]'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:161]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:161]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[1]'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:162]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:162]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[2]'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:164]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:164]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[2]'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:165]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:165]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[3]'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:167]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:167]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[3]'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:168]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:168]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched '<myHeir/myNet>'. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:305]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc:305]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/dart/vhdl_training/practical_12/practical_12.srcs/constrs_1/imports/common/Basys-3-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/toplevel_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/toplevel_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2357.988 ; gain = 0.000 ; free physical = 857 ; free virtual = 4195
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2357.988 ; gain = 0.000 ; free physical = 857 ; free virtual = 4195
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2357.988 ; gain = 644.395 ; free physical = 868 ; free virtual = 4197
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2365.992 ; gain = 652.398 ; free physical = 868 ; free virtual = 4197
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2365.992 ; gain = 652.398 ; free physical = 868 ; free virtual = 4197
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'rom_reg[0]' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_reg[1]' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_reg[2]' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_reg[3]' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_reg[4]' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_reg[5]' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_reg[6]' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_reg[7]' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_reg[8]' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_reg[9]' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_reg[10]' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_reg[11]' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_reg[12]' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_reg[13]' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_reg[14]' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_reg[15]' [/home/dart/vhdl_training/practical_12/practical_12.srcs/sources_1/new/rom.vhd:75]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2365.992 ; gain = 652.398 ; free physical = 864 ; free virtual = 4194
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 17    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port buttons[3] in module toplevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port buttons[1] in module toplevel is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2365.992 ; gain = 652.398 ; free physical = 850 ; free virtual = 4192
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2407.992 ; gain = 694.398 ; free physical = 748 ; free virtual = 4088
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2443.039 ; gain = 729.445 ; free physical = 708 ; free virtual = 4048
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 2443.039 ; gain = 729.445 ; free physical = 708 ; free virtual = 4048
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2592.852 ; gain = 879.258 ; free physical = 561 ; free virtual = 3897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2592.852 ; gain = 879.258 ; free physical = 561 ; free virtual = 3897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2592.852 ; gain = 879.258 ; free physical = 561 ; free virtual = 3897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2592.852 ; gain = 879.258 ; free physical = 561 ; free virtual = 3897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2592.852 ; gain = 879.258 ; free physical = 561 ; free virtual = 3897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2592.852 ; gain = 879.258 ; free physical = 562 ; free virtual = 3898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT1  |     1|
+|3     |LUT4  |     2|
+|4     |LUT5  |    17|
+|5     |LUT6  |    65|
+|6     |MUXF7 |    32|
+|7     |MUXF8 |    16|
+|8     |FDRE  |    22|
+|9     |LD    |   256|
+|10    |IBUF  |    20|
+|11    |OBUF  |    16|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2592.852 ; gain = 879.258 ; free physical = 562 ; free virtual = 3898
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 19 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2592.852 ; gain = 751.508 ; free physical = 562 ; free virtual = 3898
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2592.859 ; gain = 879.258 ; free physical = 563 ; free virtual = 3898
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2592.859 ; gain = 0.000 ; free physical = 563 ; free virtual = 3898
+INFO: [Netlist 29-17] Analyzing 304 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2648.879 ; gain = 0.000 ; free physical = 756 ; free virtual = 4091
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 256 instances were transformed.
+  LD => LDCE: 256 instances
+
+Synth Design complete | Checksum: 593236f
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 57 Warnings, 17 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:23 . Memory (MB): peak = 2648.879 ; gain = 967.973 ; free physical = 754 ; free virtual = 4090
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1821.624; main = 1821.624; forked = 315.665
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3898.000; main = 2648.883; forked = 1540.008
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2672.891 ; gain = 0.000 ; free physical = 754 ; free virtual = 4090
+INFO: [Common 17-1381] The checkpoint '/home/dart/vhdl_training/practical_12/practical_12.runs/synth_1/toplevel.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file toplevel_utilization_synth.rpt -pb toplevel_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 20 22:11:43 2025...

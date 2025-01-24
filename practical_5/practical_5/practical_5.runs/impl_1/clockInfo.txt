@@ -1,0 +1,10 @@
+-------------------------------------
+| Tool Version : Vivado v.2024.2.1
+| Date         : Thu Jan  9 11:49:51 2025
+| Host         : localhost.localdomain
+| Design       : checkpoint_flip_flop
+| Device       : xc7a35t-cpg236-1--
+-------------------------------------
+
+For more information on clockInfo.txt clock routing debug file see https://support.xilinx.com/s/article/000035660?language=en_US
+
