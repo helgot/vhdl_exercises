@@ -27,19 +27,10 @@ end entity;
 
 architecture rtl of fifo is
 
-    signal write_r, fifo_write  : std_logic;
-    signal read_r, fifo_read    : std_logic;
+    signal fifo_write  : std_logic;
+    signal fifo_read    : std_logic;
 
 begin
-    -- FIFO write and read control signals
-    fifo_write <= write_en ;
-    fifo_read  <= read_en;
-	
---	update_valid : process(write_clk) is 
---	begin
---		valid <= not empty_out;
---	end process;
-
     -- Output 'valid' is high when FIFO is not empty
     valid <= not empty_out;  -- Use the buffer signal for valid computation
 	
@@ -51,8 +42,8 @@ begin
         rd_clk           => read_clk,
 		rd_rst 		     => read_reset,
         din              => d_in,
-        wr_en            => fifo_write,
-        rd_en            => fifo_read,
+        wr_en            => write_en,
+        rd_en            => read_en,
         dout             => q_out,
         full             => full_out,
         empty            => empty_out

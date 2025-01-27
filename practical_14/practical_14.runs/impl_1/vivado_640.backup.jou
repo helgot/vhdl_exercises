@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Jan 27 20:24:23 2025
+# Process ID         : 640
+# Current directory  : D:/repos/vhdl_exercises/practical_14/practical_14.runs/impl_1
+# Command line       : vivado.exe -log toplevel.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source toplevel.tcl -notrace
+# Log file           : D:/repos/vhdl_exercises/practical_14/practical_14.runs/impl_1/toplevel.vdi
+# Journal file       : D:/repos/vhdl_exercises/practical_14/practical_14.runs/impl_1\vivado.jou
+# Running On         : HARRISON-WIN11
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : AMD Ryzen 7 9800X3D 8-Core Processor           
+# CPU Frequency      : 4691 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 8
+# Host memory        : 33377 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35525 MB
+# Available Virtual  : 19476 MB
+#-----------------------------------------------------------
+source toplevel.tcl -notrace
