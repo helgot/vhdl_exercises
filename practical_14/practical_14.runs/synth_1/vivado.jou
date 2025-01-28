@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Mon Jan 27 20:23:55 2025
-# Process ID         : 10628
+# Start of session at: Tue Jan 28 16:59:05 2025
+# Process ID         : 1940
 # Current directory  : D:/repos/vhdl_exercises/practical_14/practical_14.runs/synth_1
 # Command line       : vivado.exe -log toplevel.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source toplevel.tcl
 # Log file           : D:/repos/vhdl_exercises/practical_14/practical_14.runs/synth_1/toplevel.vds
@@ -19,6 +19,6 @@
 # Host memory        : 33377 MB
 # Swap memory        : 2147 MB
 # Total Virtual      : 35525 MB
-# Available Virtual  : 18150 MB
+# Available Virtual  : 17398 MB
 #-----------------------------------------------------------
 source toplevel.tcl -notrace
